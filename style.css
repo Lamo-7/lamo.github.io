@@ -84,3 +84,20 @@ footer {
 .contact-info a:hover {
     text-decoration: underline;
 }
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
